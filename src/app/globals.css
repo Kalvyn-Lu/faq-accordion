@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+  background: var(--light-pink) !important;
+  font-family: 'Work Sans', sans-serif !important;
+}
+
+.jumbotron {
+  background: url("/faq-accordion/background-pattern-desktop.svg") no-repeat center center;
+  background-size: cover;
+  height: 40%;
+}
+
+.container {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.accordion-button::after {
+  background: url('/faq-accordion/icon-plus.svg') no-repeat center center !important;
+  background-size: cover;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background: url('/faq-accordion/icon-minus.svg') no-repeat center center !important;
+  background-size: cover;
+  width: 30px !important;
+  height: 30px !important;
+}
