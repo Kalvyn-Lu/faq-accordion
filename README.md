@@ -11,9 +11,12 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="1792" alt="image" src="https://github.com/Kalvyn-Lu/faq-accordion/assets/6541922/1a823ec1-5198-4c06-ba05-f344b49c2769">
+
 
 ### Links
 
+https://faq-accordion-omega-five.vercel.app/
 
 ## My process
 
